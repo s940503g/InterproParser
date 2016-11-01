@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/master.swiftdeps"
+  },
+  "/Users/apple/Desktop/InterproParser/Packages/SWXMLHash-3.0.2/Source/SWXMLHash+TypeConversion.swift": {
+    "dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion.d",
+    "object": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swift.o",
+    "swiftmodule": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swiftdeps"
+  },
+  "/Users/apple/Desktop/InterproParser/Packages/SWXMLHash-3.0.2/Source/SWXMLHash.swift": {
+    "dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash.d",
+    "object": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash.swift.o",
+    "swiftmodule": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash.swiftdeps"
+  }
+}

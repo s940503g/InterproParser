@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "ff6e7cbba9bebae8c25b2deedc67e34b"
+build_time: [531297247, 303490000]
+inputs:
+  "/Users/apple/Desktop/InterproParser/Sources/File.swift": [531297245, 0]
+  "/Users/apple/Desktop/InterproParser/Sources/main.swift": [531297009, 0]

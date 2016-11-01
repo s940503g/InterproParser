@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="32a023b31233b64340afa2c7a0073ef2">MPYQYPALTPEQKKELSDIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPCIGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSERCAQYKKDGADFAKWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILPDGDHDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKFSHEEIAMATVTALRRTVPPAVTGITFLSGGQSEEEASINLNAINKCPLLKPWALTFSYGRALQASALKAWGGKKENLKAAQEEYVKRALANSLACQGKYTPSGQAGAAASESLFVSNHAY</sequence>
+        <xref id="00070|degree=9"/>
+        <matches>
+            <hmmer3-match evalue="1.6E-190" score="631.6">
+                <signature ac="G3DSA:3.20.20.70">
+                    <entry ac="IPR013785" desc="Aldolase-type TIM barrel" name="Aldolase_TIM" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                    </entry>
+                    <models>
+                        <model ac="1ofdA03"/>
+                        <model ac="1i4nA00"/>
+                        <model ac="2fiqB01"/>
+                        <model ac="1d3gA00"/>
+                        <model ac="3l21B00"/>
+                        <model ac="1of8A00"/>
+                        <model ac="3a21B01"/>
+                        <model ac="1wx0A00"/>
+                        <model ac="3e96A00"/>
+                        <model ac="3ajxA00"/>
+                        <model ac="2rfgA00"/>
+                        <model ac="3mbdA00"/>
+                        <model ac="1o94A01"/>
+                        <model ac="1qopA00"/>
+                        <model ac="3o1nA00"/>
+                        <model ac="1vhcF00"/>
+                        <model ac="1xi3A00"/>
+                        <model ac="1ofdA02"/>
+                        <model ac="3ctlA00"/>
+                        <model ac="1ep3A00"/>
+                        <model ac="1vc4A00"/>
+                        <model ac="1p4cA00"/>
+                        <model ac="1ypfA00"/>
+                        <model ac="3cu2A00"/>
+                        <model ac="1wa3D00"/>
+                        <model ac="2oczA00"/>
+                        <model ac="3chvA00"/>
+                        <model ac="2y88A00"/>
+                        <model ac="1w0mA00"/>
+                        <model ac="1w3iA00"/>
+                        <model ac="2i1oA02"/>
+                        <model ac="3rndA00"/>
+                        <model ac="3b4uA00"/>
+                        <model ac="1vr6A02"/>
+                        <model ac="3hq1A01"/>
+                        <model ac="1fcqA00"/>
+                        <model ac="3hpxA01"/>
+                        <model ac="1ps9A01"/>
+                        <model ac="1tv8B00"/>
+                        <model ac="1jvnA02"/>
+                        <model ac="3cwnA00"/>
+                        <model ac="1sflB00"/>
+                        <model ac="1x1oA02"/>
+                        <model ac="1rd5A00"/>
+                        <model ac="1piiA02"/>
+                        <model ac="3ewwA00"/>
+                        <model ac="1vcvA00"/>
+                        <model ac="3sj3A00"/>
+                        <model ac="1n7kA00"/>
+                        <model ac="3cc1B01"/>
+                        <model ac="1xm3B00"/>
+                        <model ac="3bv4A00"/>
+                        <model ac="1jr1B00"/>
+                        <model ac="1w8sE00"/>
+                        <model ac="1ujpA00"/>
+                        <model ac="1q6oB00"/>
+                        <model ac="1r30A00"/>
+                        <model ac="2w79A00"/>
+                        <model ac="1me8A00"/>
+                        <model ac="1nsjA00"/>
+                        <model ac="2r8wA00"/>
+                        <model ac="1rqbA01"/>
+                        <model ac="1l6wA00"/>
+                        <model ac="1m5wA00"/>
+                        <model ac="2p0oA01"/>
+                        <model ac="1vrdB00"/>
+                        <model ac="2hmcA00"/>
+                        <model ac="2yw3E00"/>
+                        <model ac="1tqjC00"/>
+                        <model ac="2vxnA00"/>
+                        <model ac="1jcnA00"/>
+                        <model ac="1b3oA00"/>
+                        <model ac="3ldvA00"/>
+                        <model ac="1vhnA01"/>
+                        <model ac="3elfA00"/>
+                        <model ac="3ndoA00"/>
+                        <model ac="1uasA01"/>
+                        <model ac="2e6fA01"/>
+                        <model ac="1w5qB00"/>
+                        <model ac="2p10C01"/>
+                        <model ac="1vyrA00"/>
+                        <model ac="1nvmA01"/>
+                        <model ac="1p1xB00"/>
+                        <model ac="2qr6A02"/>
+                        <model ac="3c6cA00"/>
+                        <model ac="3ceuA00"/>
+                        <model ac="3ru6B00"/>
+                        <model ac="2nzlA00"/>
+                        <model ac="3igsB00"/>
+                        <model ac="2qf7A04"/>
+                        <model ac="2zdrA01"/>
+                        <model ac="3a5fA00"/>
+                        <model ac="2b7nA02"/>
+                        <model ac="1yxyA00"/>
+                        <model ac="3atyB00"/>
+                        <model ac="2tpsB00"/>
+                        <model ac="1x7fA01"/>
+                        <model ac="2qezE03"/>
+                        <model ac="2w6rA00"/>
+                        <model ac="1gteB05"/>
+                        <model ac="2iqtA00"/>
+                        <model ac="2nwrA00"/>
+                        <model ac="1wbhB00"/>
+                        <model ac="1p0kA00"/>
+                        <model ac="3clmA00"/>
+                        <model ac="1pv8A00"/>
+                        <model ac="3gvgA00"/>
+                        <model ac="1gvfB00"/>
+                        <model ac="1vcfB00"/>
+                        <model ac="1zfjA00"/>
+                        <model ac="1vqtA00"/>
+                        <model ac="1piiA01"/>
+                        <model ac="3nyzA00"/>
+                        <model ac="3daqA00"/>
+                        <model ac="1to3A00"/>
+                        <model ac="3lbmC00"/>
+                        <model ac="1thfD00"/>
+                        <model ac="3ovpB00"/>
+                        <model ac="1qwgA00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="344" env-start="6" score="631.4" evalue="1.8E-190" hmm-start="2" hmm-end="340" hmm-length="0" start="6" end="344"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.7E-189" score="627.6">
+                <signature ac="PF00274" desc="Fructose-bisphosphate aldolase class-I" name="Glycolytic">
+                    <entry ac="IPR000741" desc="Fructose-bisphosphate aldolase, class-I" name="FBA_I" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004332" name="fructose-bisphosphate aldolase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006096" name="glycolytic process"/>
+                        <pathway-xref db="KEGG" id="00010+4.1.2.13" name="Glycolysis / Gluconeogenesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6142" name="Gluconeogenesis II (Methanobacterium thermoautotrophicum)"/>
+                        <pathway-xref db="KEGG" id="00710+4.1.2.13" name="Carbon fixation in photosynthetic organisms"/>
+                        <pathway-xref db="KEGG" id="00680+4.1.2.13" name="Methane metabolism"/>
+                        <pathway-xref db="Reactome" id="R-HSA-70263" name="Gluconeogenesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7385" name="1,3-propanediol biosynthesis (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5484" name="Glycolysis II (from fructose 6-phosphate)"/>
+                        <pathway-xref db="KEGG" id="00030+4.1.2.13" name="Pentose phosphate pathway"/>
+                        <pathway-xref db="MetaCyc" id="PWY-1861" name="Formaldehyde assimilation II (RuMP Cycle)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-1042" name="Glycolysis IV (plant cytosol)"/>
+                        <pathway-xref db="KEGG" id="00051+4.1.2.13" name="Fructose and mannose metabolism"/>
+                        <pathway-xref db="Reactome" id="R-HSA-70171" name="Glycolysis"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00274" desc="Fructose-bisphosphate aldolase class-I" name="Glycolytic"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="30.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="364" env-start="15" score="627.5" evalue="4.2E-189" hmm-start="1" hmm-end="349" hmm-length="0" start="15" end="364"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS00158" desc="Fructose-bisphosphate aldolase class-I active site." name="ALDOLASE_CLASS_I">
+                    <entry ac="IPR029768" desc="Fructose-bisphosphate aldolase class-I active site" name="Aldolase_I_AS" type="CONSERVED_SITE">
+                        <pathway-xref db="MetaCyc" id="PWY-1042" name="Glycolysis IV (plant cytosol)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7385" name="1,3-propanediol biosynthesis (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5484" name="Glycolysis II (from fructose 6-phosphate)"/>
+                        <pathway-xref db="Reactome" id="R-HSA-70171" name="Glycolysis"/>
+                        <pathway-xref db="KEGG" id="00030+4.1.2.13" name="Pentose phosphate pathway"/>
+                        <pathway-xref db="KEGG" id="00010+4.1.2.13" name="Glycolysis / Gluconeogenesis"/>
+                        <pathway-xref db="KEGG" id="00680+4.1.2.13" name="Methane metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-1861" name="Formaldehyde assimilation II (RuMP Cycle)"/>
+                        <pathway-xref db="KEGG" id="00051+4.1.2.13" name="Fructose and mannose metabolism"/>
+                        <pathway-xref db="KEGG" id="00710+4.1.2.13" name="Carbon fixation in photosynthetic organisms"/>
+                        <pathway-xref db="Reactome" id="R-HSA-70263" name="Gluconeogenesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6142" name="Gluconeogenesis II (Methanobacterium thermoautotrophicum)"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00158" desc="Fructose-bisphosphate aldolase class-I active site." name="ALDOLASE_CLASS_I"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.119"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="NONE" start="222" end="232">
+                        <alignment>Not available</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <rpsblast-match>
+                <signature ac="cd00948" desc="FBP_aldolase_I_a" name="FBP_aldolase_I_a">
+                    <models>
+                        <model ac="cd00948" desc="FBP_aldolase_I_a" name="FBP_aldolase_I_a"/>
+                    </models>
+                    <signature-library-release library="CDD" version="3.14"/>
+                </signature>
+                <locations>
+                    <rpsblast-location evalue="0.0" score="670.882" start="13" end="343"/>
+                </locations>
+            </rpsblast-match>
+            <superfamilyhmmer3-match evalue="5.65E-162">
+                <signature ac="SSF51569" name="Aldolase">
+                    <models>
+                        <model ac="0041658" name="Aldolase"/>
+                        <model ac="0049848" name="Aldolase"/>
+                        <model ac="0047183" name="Aldolase"/>
+                        <model ac="0046741" name="Aldolase"/>
+                        <model ac="0048586" name="Aldolase"/>
+                        <model ac="0046720" name="Aldolase"/>
+                        <model ac="0050246" name="Aldolase"/>
+                        <model ac="0047939" name="Aldolase"/>
+                        <model ac="0045877" name="Aldolase"/>
+                        <model ac="0052334" name="Aldolase"/>
+                        <model ac="0051933" name="Aldolase"/>
+                        <model ac="0046878" name="Aldolase"/>
+                        <model ac="0046461" name="Aldolase"/>
+                        <model ac="0052702" name="Aldolase"/>
+                        <model ac="0050143" name="Aldolase"/>
+                        <model ac="0045763" name="Aldolase"/>
+                        <model ac="0050339" name="Aldolase"/>
+                        <model ac="0051114" name="Aldolase"/>
+                        <model ac="0050734" name="Aldolase"/>
+                        <model ac="0049279" name="Aldolase"/>
+                        <model ac="0047070" name="Aldolase"/>
+                        <model ac="0051699" name="Aldolase"/>
+                        <model ac="0050945" name="Aldolase"/>
+                        <model ac="0051345" name="Aldolase"/>
+                        <model ac="0051011" name="Aldolase"/>
+                        <model ac="0050359" name="Aldolase"/>
+                        <model ac="0048294" name="Aldolase"/>
+                        <model ac="0041152" name="Aldolase"/>
+                        <model ac="0048940" name="Aldolase"/>
+                        <model ac="0046689" name="Aldolase"/>
+                        <model ac="0049382" name="Aldolase"/>
+                        <model ac="0048312" name="Aldolase"/>
+                        <model ac="0046288" name="Aldolase"/>
+                        <model ac="0050278" name="Aldolase"/>
+                        <model ac="0049661" name="Aldolase"/>
+                        <model ac="0050181" name="Aldolase"/>
+                        <model ac="0048496" name="Aldolase"/>
+                        <model ac="0035351" name="Aldolase"/>
+                        <model ac="0041693" name="Aldolase"/>
+                        <model ac="0039482" name="Aldolase"/>
+                        <model ac="0050239" name="Aldolase"/>
+                        <model ac="0036525" name="Aldolase"/>
+                        <model ac="0048245" name="Aldolase"/>
+                        <model ac="0049453" name="Aldolase"/>
+                        <model ac="0046665" name="Aldolase"/>
+                        <model ac="0046628" name="Aldolase"/>
+                        <model ac="0048611" name="Aldolase"/>
+                        <model ac="0046338" name="Aldolase"/>
+                        <model ac="0046975" name="Aldolase"/>
+                        <model ac="0048453" name="Aldolase"/>
+                        <model ac="0049000" name="Aldolase"/>
+                        <model ac="0049247" name="Aldolase"/>
+                        <model ac="0046606" name="Aldolase"/>
+                        <model ac="0051144" name="Aldolase"/>
+                        <model ac="0043346" name="Aldolase"/>
+                        <model ac="0045714" name="Aldolase"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="4" end="364"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

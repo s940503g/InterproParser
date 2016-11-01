@@ -1,0 +1,47 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<SWXMLHash.module>","<InterproParser.module>","<InterproParser.exe>"]
+  "main": ["<SWXMLHash.module>","<InterproParser.module>","<InterproParser.exe>"]
+default: "main"
+commands: 
+  "<SWXMLHash.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SWXMLHash"
+    module-output-path: "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.swiftmodule"
+    inputs: []
+    outputs: ["<SWXMLHash.module>","/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash.swift.o"]
+    import-paths: ["/Users/apple/Desktop/InterproParser/.build/debug"]
+    temps-path: "/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build"
+    objects: ["/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/apple/Desktop/InterproParser/.build/debug/ModuleCache"]
+    sources: ["/Users/apple/Desktop/InterproParser/Packages/SWXMLHash-3.0.2/Source/SWXMLHash+TypeConversion.swift","/Users/apple/Desktop/InterproParser/Packages/SWXMLHash-3.0.2/Source/SWXMLHash.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<InterproParser.module>":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "InterproParser"
+    module-output-path: "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.swiftmodule"
+    inputs: ["<SWXMLHash.module>"]
+    outputs: ["<InterproParser.module>","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main.swift.o"]
+    import-paths: ["/Users/apple/Desktop/InterproParser/.build/debug"]
+    temps-path: "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build"
+    objects: ["/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/apple/Desktop/InterproParser/.build/debug/ModuleCache"]
+    sources: ["/Users/apple/Desktop/InterproParser/Sources/File.swift","/Users/apple/Desktop/InterproParser/Sources/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<InterproParser.exe>":
+    tool: shell
+    description: "Linking ./.build/debug/InterproParser"
+    inputs: ["/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash.swift.o"]
+    outputs: ["<InterproParser.exe>","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/apple/Desktop/InterproParser/.build/debug","-o","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-emit-executable","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swift.o","/Users/apple/Desktop/InterproParser/.build/debug/SWXMLHash.build/SWXMLHash.swift.o"]
+

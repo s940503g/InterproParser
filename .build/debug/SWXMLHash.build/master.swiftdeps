@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "1f2f3621874b9fceefe21a156ca8bfe2"
+build_time: [531241622, 828686000]
+inputs:
+  "/Users/apple/Desktop/InterproParser/Packages/SWXMLHash-3.0.2/Source/SWXMLHash+TypeConversion.swift": [531239886, 0]
+  "/Users/apple/Desktop/InterproParser/Packages/SWXMLHash-3.0.2/Source/SWXMLHash.swift": [531239888, 0]

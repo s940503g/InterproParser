@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/master.swiftdeps"
+  },
+  "/Users/apple/Desktop/InterproParser/Sources/File.swift": {
+    "dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File.d",
+    "object": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File.swift.o",
+    "swiftmodule": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/File.swiftdeps"
+  },
+  "/Users/apple/Desktop/InterproParser/Sources/main.swift": {
+    "dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main.d",
+    "object": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main.swift.o",
+    "swiftmodule": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/apple/Desktop/InterproParser/.build/debug/InterproParser.build/main.swiftdeps"
+  }
+}
